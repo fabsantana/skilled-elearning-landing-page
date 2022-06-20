@@ -1,0 +1,157 @@
+@import "colors.scss";
+@import "typography.scss";
+@import "reset.scss";
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .body-container {
+    padding: 15px 15px 0 15px;
+    background-image: $body-gradient;
+  }
+
+  .header-container,
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    max-width: 89px;
+    width: 100%;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .btn-borderless {
+    color: $hot-pink;
+    font-size: $body-m-font;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+    padding: 0;
+  }
+
+  .btn-pill {
+    color: $white;
+    max-width: 140px;
+    min-height: 48px;
+    border-radius: 28px;
+    border: none;
+    padding: 10px 24px;
+    font-weight: 700;
+    font-size: $body-s-font;
+  }
+
+  .button-1 {
+    background-color: $navy;
+    transition: 0.4s;
+  }
+
+  .button-1:hover{
+    opacity: 0.5;
+  }
+
+  .button-2 {
+    background-image: $pink-orange-gradient;
+    transition: 0.4s;
+  }
+
+  .button-2:hover {
+    opacity: 0.5;
+  }
+
+  .button-3 {
+    background-image: $blue-pink-gradient;
+    transition: 0.4s;
+  }
+
+  .button-3:hover {
+    opacity: 0.5;
+  }
+
+  header {
+    margin-bottom: 38px;
+  }
+
+  .hero-section h1 {
+    color: $navy;
+    font-weight: 800;
+    font-size: $heading-l-font;
+    line-height: $heading-l-line;
+    margin-bottom: 25px;
+  }
+
+  .hero-section p {
+    color: $grey;
+    font-weight: 500;
+    font-size: $body-s-font;
+    line-height: $body-s-line;
+    margin-bottom: 25px;
+  }
+
+  .grid-item {
+    background-color: $white;
+    border-radius: 10px;
+    padding: 56px 28px 32px 28px;
+    position: relative;
+    max-width: 350px;
+  }
+
+  .grid-item#business {
+    margin-bottom: 80px;
+  }
+
+  .grid-item#popular-courses {
+    background-image: $pink-orange-gradient;
+    padding: 26px 29px 32px 29px;
+  }
+
+  .grid-item#popular-courses p{
+    color: $white;
+    font-size: $body-m-font;
+    font-weight: 800;
+    line-height: $body-m-line;
+    margin-bottom: 0;
+  }
+
+  .grid-item img {
+    position: absolute;
+    top: -28px;
+  }
+
+  .grid-item span {
+    color: $navy;
+    font-size: $heading-s-font;
+    font-weight: 800;
+    line-height: $heading-s-line;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .grid-item p {
+    color: $grey;
+    font-weight: 500;
+    font-size: $body-s-font;
+    line-height: $body-s-line;
+    margin-bottom: 24px;
+  }
+
+  .grid {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+
+  footer {
+    background-color: $navy;
+  }
+
+  .footer-container {
+    padding: 36px 16px;
+    width: 100%;
+  }
