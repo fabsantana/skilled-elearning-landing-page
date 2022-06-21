@@ -26,43 +26,50 @@
             <p>Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.</p>
             <button class="btn-pill button-2">Get Started</button>
           </div>
-          <img src="./assets/image-hero-mobile@2x.webp" alt="">
+          <picture>
+            <source media="(max-width: 767px)" srcset="./assets/image-hero-mobile.webp">
+            <source media="(min-width: 768px) and (max-width: 1439px)" srcset="./assets/image-hero-tablet.webp" >
+            <source media="(min-width: 1440px)" srcset="./assets/image-hero-desktop.webp">
+            <img src="./assets/image-hero-mobile.webp" alt="">
+          </picture>
         </div>
       </section>
       <section class="courses-section">
-        <div class="section-container grid">
-          <div class="grid-item" id="popular-courses">
-            <p>Check out our most popular courses!</p>
-          </div>
-          <div class="grid-item" id="animation">
-            <img src="./assets/icon-animation.svg" alt="">
-            <span>Animation</span>
-            <p>Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
-            <button class="btn-borderless">Get Started</button>
-          </div>
-          <div class="grid-item" id="design">
-            <img src="./assets/icon-design.svg" alt="">
-            <span>Design</span>
-            <p>Create beautiful, usable interfaces to help shape the future of how the web looks.</p>
-            <button class="btn-borderless">Get Started</button>
-          </div>
-          <div class="grid-item" id="photography">
-            <img src="./assets/icon-photography.svg" alt="">
-            <span>Photography</span>
-            <p>Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.</p>
-            <button class="btn-borderless">Get Started</button>
-          </div>
-          <div class="grid-item" id="crypto">
-            <img src="./assets/icon-crypto.svg" alt="">
-            <span>Crypto</span>
-            <p>All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.</p>
-            <button class="btn-borderless">Get Started</button>
-          </div>
-          <div class="grid-item" id="business">
-            <img src="./assets/icon-business.svg" alt="">
-            <span>Business</span>
-            <p>A step-by-step playbook to help you start, scale, and sustain your business without outside investment.</p>
-            <button class="btn-borderless">Get Started</button>
+        <div class="section-container">
+          <div class="grid-container">
+            <div class="grid-item" id="popular-courses">
+              <p>Check out our most popular courses!</p>
+            </div>
+            <div class="grid-item" id="animation">
+              <img src="./assets/icon-animation.svg" alt="">
+              <span>Animation</span>
+              <p>Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
+              <button class="btn-borderless">Get Started</button>
+            </div>
+            <div class="grid-item" id="design">
+              <img src="./assets/icon-design.svg" alt="">
+              <span>Design</span>
+              <p>Create beautiful, usable interfaces to help shape the future of how the web looks.</p>
+              <button class="btn-borderless">Get Started</button>
+            </div>
+            <div class="grid-item" id="photography">
+              <img src="./assets/icon-photography.svg" alt="">
+              <span>Photography</span>
+              <p>Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.</p>
+              <button class="btn-borderless">Get Started</button>
+            </div>
+            <div class="grid-item" id="crypto">
+              <img src="./assets/icon-crypto.svg" alt="">
+              <span>Crypto</span>
+              <p>All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.</p>
+              <button class="btn-borderless">Get Started</button>
+            </div>
+            <div class="grid-item" id="business">
+              <img src="./assets/icon-business.svg" alt="">
+              <span>Business</span>
+              <p>A step-by-step playbook to help you start, scale, and sustain your business without outside investment.</p>
+              <button class="btn-borderless">Get Started</button>
+            </div>
           </div>
         </div>
       </section>
